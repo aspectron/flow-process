@@ -1,0 +1,34 @@
+{
+  "name": "@aspectron/flow-process",
+  "version": "0.0.1",
+  "description": "Child Process Management",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspectron/flow-process"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "*",
+    "eslint-config-google": "*",
+    "jsdoc": "*",
+    "flow-jsdoc-template": "git+https://github.com/aspectron/flow-jsdoc-template"
+  },
+  "scripts": {
+    "docs": "node_modules/.bin/jsdoc --configure .jsdoc.js --verbose"
+  },
+  "author": {
+    "name": "ASPECTRON Inc.",
+    "email": "info@aspectron.com",
+    "url": "https://aspectron.com"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "README.md",
+    "LICENSE",
+    ".jsdoc.js"
+  ]
+}
