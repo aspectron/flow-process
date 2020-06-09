@@ -1,2 +1,2 @@
-const Process = require("./lib/process");
-module.exports = { Process };
+const FlowProcess = require("./lib/process");
+module.exports = { FlowProcess };
