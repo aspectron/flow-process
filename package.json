@@ -1,6 +1,6 @@
 {
   "name": "@aspectron/flow-process",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Child Process Management",
   "main": "index.js",
   "repository": {
