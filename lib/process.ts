@@ -47,7 +47,7 @@ export interface ProcessOptions {
     splitLines?:boolean;
 }
 
-class FlowProcess extends EventEmitter {
+export class Process extends EventEmitter {
 
     //options:ProcessOptions;
 
@@ -312,4 +312,4 @@ class FlowProcess extends EventEmitter {
     }
 }
 
-module.exports = FlowProcess;
+module.exports = Process;
